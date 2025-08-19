@@ -143,8 +143,22 @@
   }
 }
 
-@media (max-width: 767px) {
-  .nav-md {
-    display: flex;
-  }
+.nav-md a {
+  width: 50%;
+}
+
+.nav-md-btn-1 {
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  padding: 12px 0;
+  background-color: $primary-200;
+}
+
+.nav-md-btn-2 {
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  padding: 12px 0;
+  background-color: $primary-100;
 }
