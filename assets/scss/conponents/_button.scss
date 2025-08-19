@@ -1,0 +1,29 @@
+.btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  border: none;
+  background-color: transparent; /* 透明 */
+  cursor: pointer; /* 游標 */
+}
+
+@media (max-width: 576px) {
+  .btn {
+    padding: 8px 16px;
+  }
+}
+
+.btn-dark {
+  background-color: $neutral-900;
+  color: $neutral-0;
+}
+
+.btn-light {
+  border: 1px solid $neutral-900;
+}
+
+.btn-primary {
+  background-color: $primary-300;
+}
